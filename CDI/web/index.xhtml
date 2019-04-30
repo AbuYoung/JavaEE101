@@ -5,16 +5,20 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
-   <f:view>
-      <h:outputLabel value="Hello, world"/>
-	   <p> </p>
-      <h:outputLabel value="生成随机姓名,个数为10个" />
-   </f:view>
-		   <h:form>
-			   <p><h:commandButton id="click"
-			                       value="Click"
-			                       action="#{mainBean.createName}"/></p>
-			   <p><h:outputLabel id="name"
-			                     value="#{mainBean.salutation}"/></p>
-		   </h:form>
+	<ui:composition template="template.xhtml">
+
+		<ui:define name="title">GenName</ui:define>
+		<ui:define name="head">GenName</ui:define>
+		<ui:define name="content">
+			<h:form id="genname">
+				<h:outputLabel value="Hello, world"/>
+				<p> </p>
+				<h:outputLabel value="生成随机姓名,个数为10个" />
+				<p><h:commandButton id="click"
+					                    value="Click"
+					                    action="#{mainBean.createName}"/></p>
+				<p><h:outputText value="#{mainBean.salutation}"/></p>
+			</h:form>
+		</ui:define>
+	</ui:composition>
 </html>

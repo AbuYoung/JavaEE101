@@ -5,8 +5,9 @@ import java.util.Random;
 
 @Informal
 @Dependent
-public class InformalRamBean extends RamBean{
+public class InformalRamBean extends RamBean {
 
+	//private static final long serialVersionUID = 1L;
 	@Override
 	String GenName() {
 		Random newRan = new Random();

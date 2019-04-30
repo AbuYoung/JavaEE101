@@ -4,15 +4,18 @@ import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-@RequestScoped
 @Named("mainBean")
+@RequestScoped
 public class MainBean {
 
 	public MainBean() {
 	}
 
-	@Inject @Informal
+	@Inject
+	@Informal
 	RamBean rambean;
+
+	//private static final long serialVersionUID = 1L;
 
 	private String salutation;
 
