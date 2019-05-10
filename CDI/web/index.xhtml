@@ -14,10 +14,17 @@
 				<h:outputLabel value="Hello, world"/>
 				<p> </p>
 				<h:outputLabel value="生成随机姓名,个数为10个" />
-				<p><h:commandButton id="click"
-					                    value="Click"
-					                    action="#{mainBean.createName}"/></p>
-				<p><h:outputText value="#{mainBean.salutation}"/></p>
+				<p>
+					<h:commandButton id="click"
+					                    value="Click">
+						<f:ajax render="result" execute="click"/>
+					</h:commandButton>
+				</p>
+				<p>
+					<h:outputText id="result"
+					              value="#{test.salutation}"
+					              rendered="#{!facesContext.validationFailed}"/>
+				</p>
 			</h:form>
 		</ui:define>
 	</ui:composition>

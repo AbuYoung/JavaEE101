@@ -1,34 +1,27 @@
-package com.abu.java;
-
-import javax.enterprise.context.RequestScoped;
 import javax.enterprise.context.SessionScoped;
-import javax.inject.Inject;
 import javax.inject.Named;
 import java.io.Serializable;
 import java.util.Random;
 
-@Named("mainBean")
-@RequestScoped
+@Named("test")
+@SessionScoped
 
-public class MainBean {
+public class test implements Serializable {
 
-	public MainBean() {
+	private static final long serialVersionUID = 1L;
+
+	public test() {
+
 	}
-
-	@Inject
-	@Informal
-	RamBean rambean;
-
-	//private static final long serialVersionUID = 1L;
 
 	private String salutation;
 
-	String GenName() {
+	private String GenName() {
 		Random newRan = new Random();
 		return String.valueOf(newRan.nextInt(10));
 	}
 
-	public void createName() {
+	public void CreateName() {
 		this.salutation = GenName();
 	}
 
