@@ -9,6 +9,7 @@
           <file>file://$MODULE_DIR$/src/com/tutorials/Inherit/bean.xml</file>
           <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/ConstructFun/bean.xml</file>
           <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/Setter/Bean.xml</file>
+          <file>file://$MODULE_DIR$/IoC/com/tutorials/lifecycle/beans.xml</file>
         </fileset>
       </configuration>
     </facet>
