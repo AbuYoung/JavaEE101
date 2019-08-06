@@ -15,7 +15,7 @@ public class HelloIndia {
 		this.message1 = message1;
 	}
 
-	public void getMessage2() {
+	void getMessage2() {
 		System.out.println("Indian message2 : " + message2);
 	}
 
