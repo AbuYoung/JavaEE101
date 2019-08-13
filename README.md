@@ -5,9 +5,9 @@
 
 ### Index of Spring
  * IOC
-   * LifeCycle
-   * Inherit
-   * BeanPostProcesser
+   * [LifeCycle](https://github.com/AbuYoung/JavaEE101/blob/master/test/IoC/com/tutorials/lifecycle/lifecycle.md)
+   * [Inherit](https://github.com/AbuYoung/JavaEE101/blob/master/test/IoC/com/tutorials/Inherit/Inherit.md)
+   * [BeanPostProcesser](https://github.com/AbuYoung/JavaEE101/blob/master/test/IoC/com/tutorials/BeanPostProcessor/BeanPostProcesser.md)
 * DependcyInjection
    * Setter
    * ConstrutFunction
