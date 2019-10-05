@@ -9,5 +9,5 @@
    * [Inherit](https://github.com/AbuYoung/JavaEE101/blob/master/test/IoC/com/tutorials/Inherit/Inherit.md)
    * [BeanPostProcesser](https://github.com/AbuYoung/JavaEE101/blob/master/test/IoC/com/tutorials/BeanPostProcessor/BeanPostProcesser.md)
 * DependcyInjection
-   * Setter
-   * ConstrutFunction
+   * [Setter](https://github.com/AbuYoung/JavaEE101/blob/master/test/DependcyInjection/com/tutorials/Setter/Setter.md)
+   * [ConstrutFunction](https://github.com/AbuYoung/JavaEE101/blob/master/test/DependcyInjection/com/tutorials/ConstructFun/ConstructFun.md)
