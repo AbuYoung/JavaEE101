@@ -10,5 +10,7 @@ public class MainApp {
 						"com/tutorials/InnerInJection/bean.xml");
 		TextEditor te = (TextEditor) context.getBean("textEditor");
 		te.spellCheck();
+		System.out.println("Hello World");
+		
 	}
 }
