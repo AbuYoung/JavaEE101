@@ -13,5 +13,5 @@ build
 .idea
 .vscode
 test/.vscode
-
-.gitattributes
+test/.idea
+test/out
