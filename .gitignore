@@ -15,3 +15,4 @@ build
 test/.vscode
 test/.idea
 test/out
+test/out/*
