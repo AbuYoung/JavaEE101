@@ -8,7 +8,7 @@ public class MainApp {
 
 		AbstractApplicationContext context =
 				new ClassPathXmlApplicationContext(
-						"com/tutorials/lifecycle/beans.xml");
+						"com/tutorials/lifecycle/bean.xml");
 
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 		obj.getMessage();

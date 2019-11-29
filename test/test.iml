@@ -4,15 +4,12 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Beans" removed="false">
-          <file>file://$MODULE_DIR$/src/beans.xml</file>
-          <file>file://$MODULE_DIR$/src/com/tutorials/BeanPostProcessor/base.xml</file>
-          <file>file://$MODULE_DIR$/src/com/tutorials/Inherit/bean.xml</file>
           <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/ConstructFun/bean.xml</file>
-          <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/Setter/Bean.xml</file>
-          <file>file://$MODULE_DIR$/IoC/com/tutorials/lifecycle/beans.xml</file>
-          <file>file://$MODULE_DIR$/IoC/com/tutorials/Inherit/bean.xml</file>
-          <file>file://$MODULE_DIR$/IoC/com/tutorials/BeanPostProcessor/base.xml</file>
           <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/InnerInJection/bean.xml</file>
+          <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/Setter/bean.xml</file>
+          <file>file://$MODULE_DIR$/IoC/com/tutorials/BeanPostProcessor/bean.xml</file>
+          <file>file://$MODULE_DIR$/IoC/com/tutorials/Inherit/bean.xml</file>
+          <file>file://$MODULE_DIR$/IoC/com/tutorials/lifecycle/bean.xml</file>
         </fileset>
       </configuration>
     </facet>
