@@ -1,4 +1,4 @@
-package com.tutorials.lifecycle;
+package com.tutorials.Lifecycle;
 
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -8,7 +8,7 @@ public class MainApp {
 
 		AbstractApplicationContext context =
 				new ClassPathXmlApplicationContext(
-						"com/tutorials/lifecycle/bean.xml");
+						"com/tutorials/Lifecycle/bean.xml");
 
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 		obj.getMessage();

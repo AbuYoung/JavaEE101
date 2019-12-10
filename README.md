@@ -5,9 +5,9 @@
 
 ### Index of Spring
  * IOC
-   * [LifeCycle](https://github.com/AbuYoung/JavaEE101/blob/master/test/IoC/com/tutorials/lifecycle/lifecycle.md)
-   * [Inherit](https://github.com/AbuYoung/JavaEE101/blob/master/test/IoC/com/tutorials/Inherit/Inherit.md)
-   * [BeanPostProcesser](https://github.com/AbuYoung/JavaEE101/blob/master/test/IoC/com/tutorials/BeanPostProcessor/BeanPostProcesser.md)
+   * [LifeCycle](https://github.com/AbuYoung/JavaEE101/blob/master/Spring/IoC/com/tutorials/Lifecycle/Lifecycle.md)
+   * [Inherit](https://github.com/AbuYoung/JavaEE101/blob/master/Spring/IoC/com/tutorials/Inherit/Inherit.md)
+   * [BeanPostProcesser](https://github.com/AbuYoung/JavaEE101/blob/master/Spring/IoC/com/tutorials/BeanPostProcessor/BeanPostProcesser.md)
 * DependcyInjection
-   * [Setter](https://github.com/AbuYoung/JavaEE101/blob/master/test/DependcyInjection/com/tutorials/Setter/Setter.md)
-   * [ConstrutFunction](https://github.com/AbuYoung/JavaEE101/blob/master/test/DependcyInjection/com/tutorials/ConstructFun/ConstructFun.md)
+   * [Setter](https://github.com/AbuYoung/JavaEE101/blob/master/Spring/DependcyInjection/com/tutorials/Setter/Setter.md)
+   * [ConstrutFunction](https://github.com/AbuYoung/JavaEE101/blob/master/Spring/DependcyInjection/com/tutorials/ConstructFun/ConstructFun.md)

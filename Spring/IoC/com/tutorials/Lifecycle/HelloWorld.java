@@ -1,4 +1,4 @@
-package com.tutorials.lifecycle;
+package com.tutorials.Lifecycle;
 
 public class HelloWorld {
 
