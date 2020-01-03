@@ -2,14 +2,14 @@
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration>
-        <fileset id="fileset" name="Beans" removed="false">
+      <configuration process_explicitly_annotated="false">
+        <fileset id="fileset" name="test" removed="false">
+          <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/Setter/Bean.xml</file>
           <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/ConstructFun/bean.xml</file>
           <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/InnerInJection/bean.xml</file>
-          <file>file://$MODULE_DIR$/DependcyInjection/com/tutorials/Setter/bean.xml</file>
-          <file>file://$MODULE_DIR$/IoC/com/tutorials/BeanPostProcessor/bean.xml</file>
           <file>file://$MODULE_DIR$/IoC/com/tutorials/Inherit/bean.xml</file>
           <file>file://$MODULE_DIR$/IoC/com/tutorials/lifecycle/bean.xml</file>
+          <file>file://$MODULE_DIR$/IoC/com/tutorials/BeanPostProcessor/bean.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -17,11 +17,13 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/IoC" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DependcyInjection" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IoC" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Spring" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
   </component>
 </module>
