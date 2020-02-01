@@ -12,11 +12,11 @@ public class HelloWorld {
 		this.message = message;
 	}
 
-	public void init(){
+	public void init() {
 		System.out.println("Bean is going through init.");
 	}
 
-	public void destroy(){
+	public void destroy() {
 		System.out.println("Bean wiil destroy now.");
 	}
 

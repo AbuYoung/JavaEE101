@@ -11,6 +11,6 @@ public class MainApp {
 		TextEditor te = (TextEditor) context.getBean("textEditor");
 		te.spellCheck();
 		System.out.println("Hello World");
-		
+
 	}
 }
