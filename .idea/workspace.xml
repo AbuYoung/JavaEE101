@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="256ac1e8-b286-4c49-9950-7b89d97da062" name="Default Changelist" comment="" />
+    <list default="true" id="256ac1e8-b286-4c49-9950-7b89d97da062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/BeanPostProcessor/BeanPostProcesser.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/BeanPostProcessor/BeanPostProcesser.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/BeanPostProcessor/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/BeanPostProcessor/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/ConstructFun/ConstructFun.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/ConstructFun/ConstructFun.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/ConstructFun/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/ConstructFun/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/Inherit/Inherit.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/Inherit/Inherit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/Inherit/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/Inherit/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/InnerInJection/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/InnerInJection/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/Lifecycle/Lifecycle.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/Lifecycle/Lifecycle.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/Lifecycle/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/Lifecycle/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/Setter/Setter.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/Setter/Setter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/tutorials/Setter/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/com/tutorials/Setter/bean.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +51,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -34,7 +67,6 @@
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -85,6 +117,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="test" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.LifeCycle" />
       <item itemvalue="Application.Setter" />
@@ -129,6 +208,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="BRANCHES_LOG">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="233" y="18" key="#Project_Structure" timestamp="1575989405622">
       <screen x="0" y="0" width="1280" height="720" />
@@ -150,22 +240,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="316" y="133" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1575047642604" />
-    <state width="1235" height="209" key="GridCell.Tab.0.bottom" timestamp="1578049750541">
+    <state width="1235" height="168" key="GridCell.Tab.0.bottom" timestamp="1580564853646">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="209" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1578049750541" />
-    <state width="1235" height="209" key="GridCell.Tab.0.center" timestamp="1578049750540">
+    <state width="1235" height="168" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1580564853646" />
+    <state width="1235" height="168" key="GridCell.Tab.0.center" timestamp="1580564853646">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="209" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1578049750540" />
-    <state width="1235" height="209" key="GridCell.Tab.0.left" timestamp="1578049750540">
+    <state width="1235" height="168" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1580564853646" />
+    <state width="1235" height="168" key="GridCell.Tab.0.left" timestamp="1580564853646">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="209" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1578049750540" />
-    <state width="1235" height="209" key="GridCell.Tab.0.right" timestamp="1578049750541">
+    <state width="1235" height="168" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1580564853646" />
+    <state width="1235" height="168" key="GridCell.Tab.0.right" timestamp="1580564853646">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1235" height="209" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1578049750541" />
+    <state width="1235" height="168" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1580564853646" />
     <state width="1235" height="209" key="GridCell.Tab.1.bottom" timestamp="1578049750541">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
